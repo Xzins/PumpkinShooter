@@ -1,0 +1,25 @@
+# 本机 VS Code 配置包含绝对路径
+/.vscode/c_cpp_properties.json
+/.vscode/settings.json
+/.vscode/tasks.json
+
+# 项目生成的 CMake 和原生构建目录
+/build/
+/PumpkinShooter/build/
+/PumpkinShooter/cmake-build-*/
+/PumpkinShooter/out/
+/PumpkinShooter/CMakeCache.txt
+/PumpkinShooter/CMakeFiles/
+/PumpkinShooter/compile_commands.json
+/PumpkinShooter/Classes/**/*.exe
+
+# Android Studio 本机配置与新版原生构建缓存
+/PumpkinShooter/proj.android/.idea/
+/PumpkinShooter/proj.android/.cxx/
+/PumpkinShooter/proj.android/app/.cxx/
+
+# 打包产物和系统临时文件
+*.apk
+*.aab
+.DS_Store
+Thumbs.db
